@@ -65,14 +65,19 @@ labeledData %>%
 
 # 6. Save data
 processedDir <- "./Processed_data"
-processedFile <- "averagedata.csv"
+processedFile1 <- "averagedata.txt"
+processedFile2 <- "averagedata.csv"
 
 if (!file.exists(processedDir)) {
   dir.create(processedDir)
 }
 
+write.table(averagedData,
+          file.path(processedDir, processedFile1),
+          row.names = FALSE)
+
 write.csv(averagedData, 
-          file.path(processedDir, processedFile),
+          file.path(processedDir, processedFile2),
           row.names = FALSE)
 
 # Anna Polyanskaya, 2021

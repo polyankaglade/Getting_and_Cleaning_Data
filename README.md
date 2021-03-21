@@ -21,6 +21,6 @@ This repository is structured in the following way:
 - `README.md` is this file, the short description of this project
 - `/Raw_data` contains the .zip archive
 - `/Raw_data/UCI HAR Dataset` is the unziped dataset
-- `/Processed_data` contains the resulting dataset `averagedata.csv`
+- `/Processed_data` contains the resulting dataset `averagedata` in `.txt` and `.csv` formats.
 - `run_analysis.R` is the code, that produses the tidy dataset, mentioned above
 - `CodeBook.md` contains the description of the variables, the data, and any transformations or work that was performed to clean up the data

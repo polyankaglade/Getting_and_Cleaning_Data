@@ -28,7 +28,7 @@ The main script `run_analysis.R` exploits the `data.table` and `tidyverse` packa
 	- `(` and `)` characters removed from column names for the ease or reading using the `rename_with()` and custom renaming function.
 4. Descriptive activity names from `activity_labels.txt` used to name the activities in the data set, by creating a new variable `activity_label` using `mutate()`.
 5. A second, independent tidy data set `averagedData` created,  with the average of each variable for each activity and each subject.
-6. Data saved to `/Processed_data/averagedata.csv` without rownames.
+6. Data saved to `/Processed_data/averagedata.txt` and `/Processed_data/averagedata.csv` without rownames.
 
 ## Resulting data
 
